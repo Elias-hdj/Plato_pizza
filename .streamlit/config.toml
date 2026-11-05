@@ -1,0 +1,8 @@
+# Thème de l'application : clair, police sans empattement
+[theme]
+base = "light"
+primaryColor = "#c8402c"
+font = "sans serif"
+
+[server]
+headless = true

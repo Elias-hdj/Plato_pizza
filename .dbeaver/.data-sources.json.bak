@@ -1,0 +1,70 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1a1abda6a7e-bfda4515a012a9": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-1a1abdadb07-36ca637054949422": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-1a1abdf0e37-18afd9a18e723770": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Nouveau dossier",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Utilisateur\\Documents\\Data_Analyst_Formation\\02_Projets\\Nouveau dossier",
+				"url": "jdbc:sqlite:C:\\Users\\Utilisateur\\Documents\\Data_Analyst_Formation\\02_Projets\\Nouveau dossier",
+				"configurationType": "MANUAL",
+				"type": "dev"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"colorDark": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

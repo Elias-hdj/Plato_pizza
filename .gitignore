@@ -1,0 +1,13 @@
+# Base SQLite : reconstruite à partir des CSV (python preparer_base.py, ou automatiquement par l'app)
+plato_pizza.db
+
+# Fichiers temporaires Python et Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environnements virtuels et fichiers système
+.venv/
+venv/
+.DS_Store
+Thumbs.db
